@@ -1,0 +1,272 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --color_verde: #96BB7C;
+    --color_azul: #DDF4FF;
+    --color_rosa: #FFF2F3;
+    --color_rojo: #E74040;
+    --color_text_p: #737373;
+    --color_text_h: #252B42;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+/*Estilo menú*/
+
+header{
+    width: 100%;
+    display: flex; 
+    flex-wrap: wrap;
+    padding: 1.5% 5%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header div{
+    width: 30%;
+}
+
+header div img{
+    height: 100px;
+}
+
+header nav{
+    text-align: right;
+    width: 70%;
+}
+
+header nav ul{
+    display: inline-block;
+    align-items: center;
+}
+
+header nav ul li{
+    list-style: none;
+    margin-right: 20px;
+    float: left;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: var(--color_verde);
+}
+
+header nav ul li .button{
+    background-color: var(--color_verde);
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+header nav ul li button img{
+    height: 10px;
+    margin-left: 10px;    
+}
+
+
+/*Section 1*/
+.section_1{
+    background-color: var(--color_azul);
+    padding: 100px 0% 0px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+}
+
+.section_1 .div_section_1{
+    width: 40%;
+    min-width: 400px;
+    margin-bottom: 5em;
+    flex-wrap: wrap;
+}
+
+.section_1 .title_section_1{
+    color: var(--color_verde);
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.section_1 h1{
+    font-size: 70px;
+    line-height: 100px;
+    color: var(--color_text_h);
+}
+
+.section_1 .div_section_1 .p_section_1{
+    color: var(--color_text_p);
+    font-size: 30px;
+    line-height: 50px;
+    margin-top: 40px;
+}
+
+.section_1 .div_section_1 div{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section_1 .div_section_1 div a{
+    display: flex;
+    margin: 10px 20px 0px 0px;
+}
+
+
+.section_1 .div_section_1 div .button_1{
+    background-color: var(--color_verde);
+    border: 2px solid var(--color_verde);
+    border-radius: 5px;
+    padding: 15px 40px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.section_1 .div_section_1 div .button_1:hover{
+    background-color: transparent;
+    border: 2px solid var(--color_verde);
+    color: var(--color_verde);
+}
+
+.section_1 .div_section_1 div .button_2{
+    border: 2px solid var(--color_verde);
+    padding: 15px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--color_verde);
+    font-weight: 500;
+}
+
+.section_1 .div_section_1 div .button_2:hover{
+    background-color: var(--color_verde);
+    color: white;
+}
+
+
+.section_1 .div_section_2{
+    width: 60%;
+    text-align: right;
+    flex-wrap: wrap;
+}
+
+.section_1 .div_section_2 img{
+    width: 80%;
+    text-align: right;
+}
+
+/*Data*/
+.data{
+    width: 100%;
+}
+
+.data article{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.data article div{
+    width: 25%;
+    min-width: 300px;
+    padding: 50px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.data article div p{
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--color_verde);
+}
+
+.data article div h3{
+    color: var(--color_text_h);
+}
+
+/*Sección 2*/
+
+.seccion_2{
+    background-color: #FFF2F3;
+    padding: 200px 100px;
+}
+
+.seccion_2 h2{
+    font-size: 50px;
+    color: var(--color_text_h);
+    margin-bottom: 100px;
+}
+
+.seccion_2 article{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.seccion_2 article div{
+    width: 30%;
+    min-width: 400px;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 50px;
+    margin: 20px;
+}
+
+.seccion_2 article div img{
+    margin-bottom: 30px;
+}
+
+.seccion_2 article div h3{
+    font-size:25px;
+    color: var(--color_text_h);
+    margin-bottom: 20px;
+}
+
+.seccion_2 article div hr{
+    height: 3px;
+    background: var(--color_rojo);
+    border: none;
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+.seccion_2 article div p{
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--color_text_p);
+}
+
+/*Footer*/
+
+footer{
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+footer p{
+    float: left;
+    width: 50%;
+    color: var(--color_text_p);
+
+}
+
+footer div{
+    width: 50%;
+}
+
+footer div img{
+    margin: 10px;
+}
+
+

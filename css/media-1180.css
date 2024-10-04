@@ -1,0 +1,46 @@
+@media only screen and (max-width: 1080px) {
+    
+    /*Sección 1*/
+    .section_1{
+        /*padding: 80px 20px 0px 80px;*/
+        padding: 5em 2em 0em 3em;
+        align-items: end;
+        overflow: hidden;
+    }
+    
+    .section_1 h1{
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .section_1 .div_section_1{
+        width: 45%;
+        min-width: 260px;
+    }
+    .section_1 .div_section_1 .p_section_1{
+        font-size: 20px;
+        line-height: 35px;
+        margin-top: 20px;
+    }
+
+    .section_1 .div_section_2{
+        width: 55%;
+    }
+    .section_1 .div_section_2 img{
+        width: 100%;
+        min-width: 400px;
+    }*/
+
+    /*Sección 2*/
+
+    .seccion_2{
+        padding: 100px 50px;
+    }
+
+    .seccion_2 article div{
+        padding: 30px;
+        margin: 10px;
+    }
+    .seccion_2 article{
+        justify-content: center;
+    }
+  }
